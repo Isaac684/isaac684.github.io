@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    background-color: #EBEBEB;
+}
+.grid-principal{
+    
+    display: grid;
+    grid-template-columns: 10fr 60fr;  
+    column-gap: 1px;
+    font-family: Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.grid-info{
+    margin: 10px;
+    background-color: white;
+}
+ .grid-info-iconos{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 6fr; 
+ }
+ .iconos{
+    display: grid;
+    grid-template-columns: 12px;
+    margin: 5px 0px 0px 5px; 
+ }
+
+ .info-iconos{
+    margin-top: 7px;
+ }
+
+.grid-item-experiencia{
+    display: grid;
+    grid-template-rows: 20fr 40fr;
+    row-gap: 10px; 
+    margin: 10px 10px 10px 0px;
+}
+.introduccion{
+    display: grid;
+    grid-template-rows: 10fr 10fr;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.experiencia-laboral{
+    display: grid;
+    grid-template-rows: 10fr 10fr 10fr;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.experiencia-laboral{
+    display: grid;
+    grid-template-rows: repeat(10fr);
+}
+.icono{
+    width: 20px;
+    height: 20px;
+}
+
+.lenguajes{
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #196b62;
+    text-align: justify;
+}
